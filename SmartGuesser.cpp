@@ -1,8 +1,8 @@
 #include<iostream>
-#include "SmartGusser.hpp"
+#include "SmartGuesser.hpp"
 using namespace std;
 
-string SmartGusser::guess()
+string SmartGuesser::guess()
 {
 	return "0000";
 }
