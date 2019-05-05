@@ -4,5 +4,5 @@ using namespace std;
 
 string SmartGuesser::guess()
 {
-	return "0000";
+	return "0123";
 }
