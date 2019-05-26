@@ -1,8 +1,6 @@
-
+#pragma one
 #include <iostream>
 
-namespace bullpgia {
+using namespace std;
 
-  std::string calculateBullAndPgia(std::string choice, std::string guess);
-
-} /* bullpgia */
+string Calculate_Bull_Pgia(string choice , string guess);

@@ -1,31 +1,16 @@
-#pragma once
-#include<iostream>
-#include "calculate.hpp"
+#pragma one
+#include <iostream>
+
+namespace bullpgia{
 
 using namespace std;
+class Gusser{
 
-namespace bullpgia
-{
-	class Guesser
-	{
-	protected:
-		unsigned int length; // holds the string length;
-		string result;
+unsigned int length;
+string ans;
 
-	public:
-		virtual string guess() = 0;
-
-		/**
-		 * this void function starts a new game with a given input
-		 * @param length is length of string.
-		 */
-		virtual void startNewGame(unsigned int length){
-			this->length = length;
-		 }
-
-
-		virtual void learn(string calculateBullAndPgia_ans){
-    this->result = calculateBullAndPgia_ans;
-		}
-	 };
+virtual string guess()=0;
+virtual void learn(string _ans){ans = _ans;}
+virtual void start_new_game(unsigned int l){length = l;}
+};
 }
