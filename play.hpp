@@ -40,7 +40,7 @@ namespace bullpgia {
 
 	 */
 
-	unsigned int play(Chooser& chooser,Gusser & gusser, unsigned int length, unsigned int maxTurns);
+	unsigned int play(Chooser& chooser,Guesser & gusser, unsigned int length, unsigned int maxTurns);
 
 }
 
